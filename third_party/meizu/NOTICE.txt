@@ -1,0 +1,18 @@
+魅族原厂互传第三方软件说明
+
+文件：mzshare-6.1.14.apk
+应用：互传
+包名：com.meizu.share
+版本：6.1.14（6001014）
+来源：魅族原厂 MzShare 系统组件（/system/app/MzShare/MzShare.apk）
+SHA-256：4f4fa92b4000d371c33f4319f49fd25a8f7caece9c1bcce4136d953da5a2b756
+原签名证书 SHA-256：94153299d67ab1b37a39ed5fe17e893df87084fb129077be51863bcbd9132336
+
+本文件为原厂 APK 的完整副本，未修改、未重新签名，不包含使用者的应用数据。
+软件及其中代码、图片、字体、库和其他资源的版权及相关权利，属于魅族及各自权利人。
+原厂应用内部的版权、许可、隐私及其他通知均保留。
+本安装包的 MIT 许可证不适用于本 APK 及其资源。
+本项目是独立兼容项目，不是魅族、STEPX 或互传联盟的官方产品，没有官方认证或背书。
+原厂 APK 随 Release 安装包提供；附带本说明不代表取得第三方软件的额外许可。
+
+协议参考：https://xj-platform.flyme.com/fms/policy/f9643fe524ad5ab0a8ad426a3758cb7b_2.html
