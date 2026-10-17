@@ -1,0 +1,14 @@
+.local-state/
+build/
+releases/
+private/
+*.apk
+*.zip
+*.tar.gz
+*.keystore
+*.jks
+*.p12
+*.idsig
+__pycache__/
+*.pyc
+.DS_Store
