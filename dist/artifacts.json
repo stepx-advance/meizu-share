@@ -1,0 +1,14 @@
+{
+  "package": "local.pz261a.shareentry",
+  "version": "1.0",
+  "bridge_sha256": "2f950d82d7a24dd2fd0d87cf07b6145baf624beabc4747e7c28e72426be345f2",
+  "signer_certificate_sha256": "b302c3e2d2e8adddc5e4d797e7b7d2b29e066f422422592b62357cf80c53de43",
+  "engine": {
+    "file": "third_party/meizu/mzshare-6.1.14.apk",
+    "package": "com.meizu.share",
+    "version": "6.1.14",
+    "version_code": 6001014,
+    "sha256": "4f4fa92b4000d371c33f4319f49fd25a8f7caece9c1bcce4136d953da5a2b756",
+    "signer_certificate_sha256": "94153299d67ab1b37a39ed5fe17e893df87084fb129077be51863bcbd9132336"
+  }
+}
