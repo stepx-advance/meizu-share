@@ -1,1 +1,18 @@
-
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="local.pz261a.shareentry" android:versionCode="1" android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="34" android:targetSdkVersion="36"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <queries><package android:name="com.meizu.share"/></queries>
+    <application android:label="互传" android:icon="@drawable/app_icon" android:allowBackup="false" android:supportsRtl="true" android:theme="@android:style/Theme.Material.Light.NoActionBar">
+        <activity android:name=".MainActivity" android:exported="true" android:excludeFromRecents="true">
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+            <intent-filter><action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/><category android:name="android.intent.category.DEFAULT"/></intent-filter>
+        </activity>
+        <service android:name=".ShareTileService" android:label="互传" android:icon="@drawable/tile_icon" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true">
+            <intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter>
+            <meta-data android:name="android.service.quicksettings.ACTIVE_TILE" android:value="true"/>
+            <meta-data android:name="android.service.quicksettings.TOGGLEABLE_TILE" android:value="true"/>
+        </service>
+    </application>
+</manifest>
